@@ -28,6 +28,12 @@
          "id":53,
          "name":"Youtube",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"openYoutube",
+                 "type":"string",
+                 "value":"https:\/\/youtu.be\/grGwps6GBG0"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":31,
