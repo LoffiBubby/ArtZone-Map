@@ -32,7 +32,7 @@
                 {
                  "name":"openWebsite",
                  "type":"string",
-                 "value":"http:\/\/127.0.0.1:8000\/login\/"
+                 "value":"http:\/\/127.0.0.1:8000\/index\/"
                 }],
          "type":"tilelayer",
          "visible":true,
