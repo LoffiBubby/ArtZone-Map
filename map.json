@@ -33,6 +33,16 @@
                  "name":"jitsiRoom",
                  "type":"string",
                  "value":"CoffeTime"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onaction"
+                }, 
+                {
+                 "name":"jitsiTriggerMessage",
+                 "type":"string",
+                 "value":"Come with us! Please click the SPACE"
                 }],
          "type":"tilelayer",
          "visible":true,
