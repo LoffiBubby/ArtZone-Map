@@ -33,7 +33,7 @@
                 {
                  "name":"openTab",
                  "type":"string",
-                 "value":"https:\/\/en.wikipedia.org\/wiki\/Paul_George"
+                 "value":"https://en.wikipedia.org/wiki/Paul_George"
                 }],
          "type":"tilelayer",
          "visible":true,
