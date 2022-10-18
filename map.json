@@ -42,7 +42,7 @@
                 {
                  "name":"userdata-",
                  "type":"string",
-                 "value":"userdata-bbb_auto_share_webcam=true\nuserdata-bbb_hide_presentation=true\nuserdata-bbb_listen_only_mode=false\nuserdata-bbb_skip_check_audio=true\nuserdata-bbb_skip_video_preview=true\nuserdata-bbb_show_participants_on_login=false\n"
+                 "value":"userdata-bbb_auto_share_webcam=true\nuserdata-bbb_hide_presentation=true\nuserdata-bbb_listen_only_mode=false\nuserdata-bbb_skip_check_audio=false\nuserdata-bbb_skip_video_preview=true\nuserdata-bbb_show_participants_on_login=false\n"
                 }],
          "type":"tilelayer",
          "visible":true,
