@@ -26,6 +26,8 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
+WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+
 function closePopUp(){
     if (currentPopup !== undefined) {
         currentPopup.close();
