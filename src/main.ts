@@ -28,6 +28,10 @@ WA.onInit().then(() => {
 
 WA.chat.sendChatMessage('Hello world', 'Mr Robot');
 
+// WA.nav.goToPage('https://www.wikipedia.org/');
+const coWebsite = await WA.nav.openCoWebSite('https://en.wikipedia.org/wiki/Metaverse',true,"",70,1,true,true);
+coWebsite.close();
+
 function closePopUp(){
     if (currentPopup !== undefined) {
         currentPopup.close();
