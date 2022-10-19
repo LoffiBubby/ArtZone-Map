@@ -26,11 +26,11 @@ WA.onInit().then(() => {
 
 }).catch(e => console.error(e));
 
-WA.chat.sendChatMessage('Hello world', 'Mr Robot');
+// WA.chat.sendChatMessage('Hello world', 'Mr Robot');
 
 // WA.nav.goToPage('https://www.wikipedia.org/');
-const coWebsite = await WA.nav.openCoWebSite('https://en.wikipedia.org/wiki/Metaverse',true,"",70,1,true,true);
-coWebsite.close();
+// const coWebsite = await WA.nav.openCoWebSite('https://en.wikipedia.org/wiki/Metaverse',true,"",70,1,true,true);
+// coWebsite.close();
 
 function closePopUp(){
     if (currentPopup !== undefined) {
