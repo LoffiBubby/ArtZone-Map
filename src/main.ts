@@ -24,6 +24,10 @@ WA.onInit().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
+    WA.room.onEnterLayer("silentZone").subscribe(() => {
+    WA.chat.sendChatMessage("Hello!", "Mr Robot");
+});
+
 }).catch(e => console.error(e));
 
 // WA.chat.sendChatMessage('Hello world', 'Mr Robot');
