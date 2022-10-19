@@ -68,6 +68,11 @@
          "opacity":1,
          "properties":[
                 {
+                 "name":"allowApi",
+                 "type":"bool",
+                 "value":true
+                }, 
+                {
                  "name":"audioLoop",
                  "type":"bool",
                  "value":true
@@ -628,6 +633,28 @@
                  "width":65.7407407407406,
                  "x":639.814814814815,
                  "y":31.4814814814815
+                }, 
+                {
+                 "class":"area",
+                 "height":147.058823529412,
+                 "id":22,
+                 "name":"WorkingZone",
+                 "properties":[
+                        {
+                         "name":"focusable",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"zoom_margin",
+                         "type":"float",
+                         "value":0.5
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":255.882352941177,
+                 "x":351.960784313725,
+                 "y":289.21568627451
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -700,7 +727,7 @@
          "y":0
         }],
  "nextlayerid":68,
- "nextobjectid":20,
+ "nextobjectid":24,
  "orientation":"orthogonal",
  "properties":[
         {
